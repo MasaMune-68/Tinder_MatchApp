@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
-    root 'top#index'
+  devise_for :users, # この行にカンマを追加
+    controllers: { registrations: 'registrations' } # この行を追加
 
-    resources :users, only: [:show]
-    
+  root 'top#index'
+
+  resources :users, only: [:show]
 end
