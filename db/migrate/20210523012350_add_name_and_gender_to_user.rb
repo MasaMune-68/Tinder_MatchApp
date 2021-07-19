@@ -3,6 +3,7 @@ class AddNameAndGenderToUser < ActiveRecord::Migration[6.1]
 
     add_column :users, :name, :string, null: false
     add_column :users, :school, :string, null: false
+    add_column :age, :school, :string, null: false
 
   end
 end
