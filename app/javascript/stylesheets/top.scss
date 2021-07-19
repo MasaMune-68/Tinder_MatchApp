@@ -1,5 +1,5 @@
 .jumbotron {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05) ), url("~top.jpg") center no-repeat;
+  background: url("~Top_appp.png") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
@@ -7,7 +7,8 @@
 }
 
 .text-top-color {
-  color: #FD3378;
+  background: #ff476b;
+  color: #ffffff;
   font-weight: 600;
   padding: 6px 24px;
 }
@@ -16,7 +17,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   letter-spacing: 2px;
   white-space: nowrap;
 }
@@ -25,21 +26,39 @@
   position: absolute;
   top: 80%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   &__sign-up-btn {
-    background: #FD3378;
+    background: #ff476b;
     border-radius: 30px;
-    padding: 4px;
+    padding: 6px;
     white-space: nowrap;
   }
   &__sign-in-btn {
+    background: #ff476b;
     border-radius: 30px;
-    padding: 4px;
+    padding: 6px;
     white-space: nowrap;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 2px;
   }
+}
+
+.text-primary {
+  color: #08ccad !important;
+  font-weight: 600;
+}
+
+.text-primary2 {
+  color: #876bfa !important;
+  font-weight: 600;
+}
+
+.btn-info {
+  background: #08ccad;
+  color: #ffffff !important;
+}
+
+.btn-info2 {
+  background: #876bfa;
+  color: #ffffff !important;
 }
 
 @media (max-width: 767px) {

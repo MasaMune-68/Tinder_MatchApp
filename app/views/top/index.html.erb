@@ -1,32 +1,42 @@
 <div class="jumbotron">
   <div class="container">
     <nav class="navbar navbar-light">
-      <a class="navbar-brand text-white">Techpit Match</a>
+      <a class="navbar-brand text-white"></a>
       <div class="navbar__sign-in-btn">
-
-        <%# この行を編集する%>
-        <%= link_to "ログイン", new_user_session_path, class: "btn my-2 my-sm-0 bg-light text-top-color" %>
+        <%= link_to "ログイン", new_user_session_path, class: "btn btn-lg my-2 my-sm-0 text-top-color" %>
 
       </div>
     </nav>
   </div>
 
-  <div class="top-title">
-    <h1 class="text-white text-center">
-      Swipe Right
-    </h1>
-  </div>
-
   <div class="top-authentication text-center">
     <div class="top-authentication__sign-up-btn m-3">
 
-      <%= link_to "アカウントを作成する", new_user_registration_path, class: "btn text-white" %>
+      <%= link_to "アカウントを作成する", new_user_registration_path, class: "btn btn-lg text-white" %>
 
     </div>
     <div class="top-authentication__sign-in-btn m-3">
 
-      <%= link_to "ログイン", new_user_session_path, class: "btn text-white" %>
+      <%= link_to "ログイン", new_user_session_path, class: "btn btn-lg text-white" %>
 
     </div>
   </div>
+</div>
+
+<h3><span class="text-primary"><p class="text-center">● Sympacyとは</span></p></h3><br>
+
+<div class="mx-5 mx-2"><span class="text-primary"><p class="text-left">同じ悩みを持つもの同士で互いに相談し合い、共感し合う学生限定のマッチングアプリです。このアプリケーションは匿名で登録していただき、両者が話してみたいと一致したらマッチングすることができます。同じ悩みを持つ学生同士でマッチングするので、他のサービスよりも相談がしやすく、共感し合う関係を築くことができます。悩みを抱えているのはあなただけではありません。このアプリケーションを使って色々な方と相談し共感し合いましょう。</span></p></div><br>
+
+<div class="section1 text-center">
+<%= link_to "アカウントを作成する→", new_user_registration_path, class: "btn btn-info btn-lg w-75 text-top-color" %> 
+
+</div>
+
+<h3><span class="text-primary2"><p class="text-center mt-5">● 対象とする方</span></p></h3><br>
+
+<div class="mx-5 mx-2"><span class="text-primary2"><p class="text-left">このアプリケーションは学生限定になります。日常生活や学校生活など身近に発生した悩みを抱える学生や、長年抱え持っている重い悩みを持つ学生など、悩みを抱えている学生はどなたでもご利用できます。学生ではない方や、冷やかし・暴言を吐く方はこちらでブロックさせていただきます。ご了承ください。</span></p></div><br>
+
+<div class="section1 text-center">
+<%= link_to "アカウントを作成する→", new_user_registration_path, class: "btn btn-info2 btn-lg w-75 text-top-color" %> 
+
 </div>
